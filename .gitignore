@@ -1,3 +1,6 @@
 MemberManagement/**/*.class
 *.class
 *.txt
+.classpath
+.project
+.settins
