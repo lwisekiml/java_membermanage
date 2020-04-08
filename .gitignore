@@ -1,4 +1,4 @@
-MemberManagement/**/*.class
+# MemberManagement/**/*.class
 *.class
 *.txt
 .classpath
