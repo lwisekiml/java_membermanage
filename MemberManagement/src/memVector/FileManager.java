@@ -24,7 +24,7 @@ public class FileManager {
 
 					System.out.println("ÆÄ½ÌÇÑ ³»¿ë : ["+memNum+" "+memName+"]");
 					Member member = new Member(memNum, memName);
-					mm.members.add(member);
+					mm.members.set(memNum-1, member);
 				}
 				fr.close();
 			} else {
