@@ -112,7 +112,7 @@ public class MemberManager {
 		System.out.println("검색 결과 >> "+member.toString());
 	}
 
-	void findMemberName() {
+	void findMemberName() { // 만들어야됨
 		String memName = "";
 
 		System.out.println("검색할 회원 이름 :");
@@ -128,6 +128,7 @@ public class MemberManager {
 		System.out.println("전체 목록");
 		int cnt = members.size();
 		System.out.println("회원 수:"+cnt);
+		System.out.println("aaaaa:" + members.get(1).getNum());
 
 		for (Member member : members) {
 			if(member != null) {
